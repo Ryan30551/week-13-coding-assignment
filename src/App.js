@@ -1,10 +1,14 @@
-import LoginForm from "./components/loginform";
+import LoginForm from "./components/loginform.js";
+import Navbar from "./components/Navbar.js";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="page">
+    <><div>
       <LoginForm />
-    </div>
+    </div><div>
+        <Navbar />
+      </div></>
   );
 }
 
